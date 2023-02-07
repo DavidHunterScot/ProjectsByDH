@@ -8,17 +8,19 @@
 html,
 body
 {
+    --k-color: rgb( 34 0 89 / 1 );
+    --k-bg: rgb( 238 236 242 / 1 );
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    background-color: #222;
-    color: #eee;
+    background-color: var( --k-bg );
+    color: var( --k-color );
 }
 
 a
 {
-    color: #fff;
+    color: var( --k-color );
     font-weight: 600;
 }
 
@@ -31,6 +33,110 @@ a
 
 header
 {
-    padding: 6rem 0;
+    --k-bg: #220059;
+    --k-bg-radial: radial-gradient( 62.59% 100% at 50% 100%, rgba( 103, 7, 187, 0.6 ) 0px, rgba( 103, 7, 187, 0 ) 100% );
+    --k-color: #dfceff;
+    padding: 8rem 0;
     text-align: center;
+    color: var( --k-color );
+    background-color: #111;
+    background-image: var( --k-bg-radial );
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 60px),50% 100%,0 calc(100% - 60px));
+}
+
+.projects
+{
+    margin-top: -100px;
+    position: relative;
+    padding-bottom: 6rem;
+}
+
+.projects .container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+}
+
+.projects .project
+{
+    background-color: #fff;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px -1px rgba(0,0,0,.1);
+}
+
+.projects .project:hover
+{
+    transform: translate( 0, -0.25rem ) rotate( 0 ) skewX( 0 ) skewY( 0 ) scaleX( 1 ) scaleY( 1 );
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);
+}
+
+.projects .project .info
+{
+    padding: 3rem 1.5rem;
+}
+
+.projects .project .title
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.projects .project .description
+{
+    font-size: 1.135rem;
+}
+
+.projects .project .url
+{
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+.projects .project .url a
+{
+    text-underline-offset: 4px;
+}
+
+.projects .project .image
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25vw;
+}
+
+footer .container
+{
+    --color: rgb( 115 100 147 / 1 );
+    border-top: 1px solid var( --color );
+    color: var( --color );
+    padding: 0 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+@media ( min-width: 950px )
+{
+    .projects .project
+    {
+        flex-direction: row;
+    }
+
+    .projects .project .info
+    {
+        width: 60%;
+    }
+
+    .projects .project .image
+    {
+        width: 40%;
+        height: auto;
+    }
 }
