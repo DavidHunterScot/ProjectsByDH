@@ -8,45 +8,7 @@
         <title>Projects by David Hunter</title>
 
         <link rel="stylesheet" type="text/css" href="/assets/webfonts/poppins/poppins.css">
-
-        <style type="text/css">
-            *,
-            *::before,
-            *::after
-            {
-                box-sizing: border-box;
-            }
-
-            html,
-            body
-            {
-                margin: 0;
-                padding: 0;
-                font-family: "Poppins", sans-serif;
-                font-size: 16px;
-                background-color: #222;
-                color: #eee;
-            }
-
-            a
-            {
-                color: #fff;
-                font-weight: 600;
-            }
-
-            .container
-            {
-                max-width: 1200px;
-                margin: 0 auto;
-                padding: 1rem;
-            }
-
-            header
-            {
-                padding: 6rem 0;
-                text-align: center;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
     </head>
 
     <body>
