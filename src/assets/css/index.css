@@ -107,10 +107,12 @@ header
 
 .projects .project .image
 {
+    --angle: 0deg;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 25vw;
+    border-radius: 0 0 0.4rem 0.4rem;
 }
 
 footer .container
@@ -150,7 +152,9 @@ footer .container a
 
     .projects .project .image
     {
+        --angle: 270deg;
         width: 40%;
         height: auto;
+        border-radius: 0 0.4rem 0.4rem 0;
     }
 }
