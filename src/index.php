@@ -30,14 +30,16 @@
                         "title" => "Personal Website",
                         "description" => "It is all about me",
                         "url" => "https://davidhunter.scot",
-                        "image" => "/assets/images/davidhunter_illustration_transparent_1.png"
+                        "image" => "/assets/images/davidhunter_illustration_transparent_1.png",
+                        "color" => "#333",
                     ),
                     array
                     (
                         "title" => "StaticPHP",
                         "description" => "A Static Site Generator that turns PHP files into HTML files.",
                         "url" => "https://github.com/DavidHunterScot/StaticPHP",
-                        "image" => "/assets/images/StaticPHP-Promo1.png"
+                        "image" => "/assets/images/StaticPHP-Promo1.png",
+                        "color" => "#7A86B8",
                     )
                 );
 
@@ -52,7 +54,7 @@
                         <div class="url"><a href="<?php echo $project['url']; ?>" target="_blank"><?php echo $project['url']; ?></a></div>
                     </div>
 
-                    <div class="image" style="background-image: url( '<?php echo $project['image']; ?>' );">&nbsp;</div>
+                    <div class="image" style="background-image: url( '<?php echo $project['image']; ?>' ), linear-gradient( var( --angle ), <?php if( isset( $project['color'] ) && $project['color'] ) echo $project['color']; else echo "#262626"; ?> 0%, #ffffff 50% );">&nbsp;</div>
                 </div>
 
                 <?php
