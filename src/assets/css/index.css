@@ -26,9 +26,9 @@ a
 
 .container
 {
-    max-width: 1200px;
+    max-width: 600px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 header
@@ -56,7 +56,6 @@ header
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 0;
 }
 
 .projects .project
@@ -96,6 +95,9 @@ header
     font-family: monospace;
     letter-spacing: 2px;
     font-size: 0.9rem;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 2px;
 }
 
 .projects .project .url a
@@ -122,8 +124,14 @@ footer .container
     text-align: center;
 }
 
-@media ( min-width: 950px )
+@media ( min-width: 1280px )
 {
+    .container
+    {
+        max-width: 1200px;
+        padding: 0;
+    }
+
     .projects .project
     {
         flex-direction: row;
