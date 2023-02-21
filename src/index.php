@@ -74,7 +74,7 @@
 
         <footer>
             <div class="container">
-                <p>Copyright &copy; David Hunter. Site built and deployed from <a href="https://github.com/DavidHunterScot/bydh.me" target="_blank">Source Code on GitHub</a>.</p>
+                <p>Copyright &copy; David Hunter. Site built and deployed from <a href="https://github.com/DavidHunterScot/ProjectsByDH" target="_blank">Source Code on GitHub</a>.</p>
             </div>
         </footer>
     </body>
