@@ -37,10 +37,18 @@
                     (
                         "title" => "StaticPHP",
                         "description" => "A Static Site Generator that turns PHP files into HTML files.",
-                        "url" => "https://github.com/DavidHunterScot/StaticPHP",
+                        "url" => "https://staticphp.bydh.me",
                         "image" => "/assets/images/StaticPHP-Promo1.png",
                         "color" => "#7A86B8",
-                    )
+                    ),
+                    array
+                    (
+                        "title" => "Network Tools",
+                        "description" => "A selection of web based tools to help with things related to computer networks.",
+                        "url" => "https://networktools.bydh.me",
+                        "image" => "",
+                        "color" => "#ffffff",
+                    ),
                 );
 
                 foreach( $projects as $project )
