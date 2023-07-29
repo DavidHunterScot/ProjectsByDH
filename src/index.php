@@ -7,7 +7,7 @@
 
         <title>Projects by David Hunter</title>
 
-        <link rel="stylesheet" type="text/css" href="/assets/webfonts/poppins/poppins.css">
+        <link rel="stylesheet" type="text/css" href="https://webfonts.staticly.ict.rocks/poppins/poppins.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
     </head>
 
@@ -29,7 +29,7 @@
                     (
                         "title" => "Personal Website",
                         "description" => "It is all about me",
-                        "url" => "https://davidhunter.scot",
+                        "url" => "https://www.davidhunter.ict.rocks",
                         "image" => "/assets/images/davidhunter_illustration_transparent_1.png",
                         "color" => "#333",
                     ),
@@ -37,7 +37,7 @@
                     (
                         "title" => "StaticPHP",
                         "description" => "A Static Site Generator that turns PHP files into HTML files.",
-                        "url" => "https://staticphp.bydh.me",
+                        "url" => "https://staticphp.ict.rocks",
                         "image" => "/assets/images/StaticPHP-Promo1.png",
                         "color" => "#7A86B8",
                     ),
@@ -45,7 +45,7 @@
                     (
                         "title" => "Network Tools",
                         "description" => "A selection of web based tools to help with things related to computer networks.",
-                        "url" => "https://networktools.bydh.me",
+                        "url" => "https://networktools.ict.rocks",
                         "image" => "",
                         "color" => "#ffffff",
                     ),
