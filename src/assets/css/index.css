@@ -148,6 +148,7 @@ footer .container a
     .projects .project .info
     {
         width: 60%;
+        padding: 5rem 1.5rem;
     }
 
     .projects .project .image

@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Projects by David Hunter</title>
+        <title>More by David Hunter</title>
 
         <link rel="stylesheet" type="text/css" href="https://webfonts.staticly.ict.rocks/poppins/poppins.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
@@ -14,7 +14,7 @@
     <body>
         <header>
             <div class="container">
-                <p style="letter-spacing: 3px; font-size: 1.2rem;">PROJECTS BY</p>
+                <p style="letter-spacing: 3px; font-size: 1.2rem;">MORE BY</p>
                 <h1 style="font-size: 3rem;">DAVID HUNTER</h1>
             </div>
         </header>
@@ -29,7 +29,7 @@
                     (
                         "title" => "Personal Website",
                         "description" => "It is all about me",
-                        "url" => "https://www.davidhunter.ict.rocks",
+                        "url" => "https://davidhunter.scot",
                         "image" => "/assets/images/davidhunter_illustration_transparent_1.png",
                         "color" => "#333",
                     ),
@@ -37,17 +37,25 @@
                     (
                         "title" => "StaticPHP",
                         "description" => "A Static Site Generator that turns PHP files into HTML files.",
-                        "url" => "https://staticphp.ict.rocks",
+                        "url" => "https://staticphp.bydh.me",
                         "image" => "/assets/images/StaticPHP-Promo1.png",
                         "color" => "#7A86B8",
                     ),
                     array
                     (
                         "title" => "Network Tools",
-                        "description" => "A selection of web based tools to help with things related to computer networks.",
-                        "url" => "https://networktools.ict.rocks",
+                        "description" => "Web based tools related to computer networks.",
+                        "url" => "https://networktools.bydh.me",
                         "image" => "",
                         "color" => "#ffffff",
+                    ),
+                    array
+                    (
+                        "title" => "Staticly",
+                        "description" => "The essential repository for Front End Web Developers.",
+                        "url" => "https://www.staticly.ict.rocks",
+                        "image" => "",
+                        "color" => "#4A9CB3",
                     ),
                 );
 
