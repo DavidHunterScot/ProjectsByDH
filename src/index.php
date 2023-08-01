@@ -57,6 +57,14 @@
                         "image" => "",
                         "color" => "#4A9CB3",
                     ),
+                    array
+                    (
+                        "title" => "DAH5",
+                        "description" => "The website that started it all, originally launched back in April 2005!",
+                        "url" => "https://www.dah5.com",
+                        "image" => "/assets/images/dah5-logo-2022.svg",
+                        "color" => "rgb( 38, 38, 38 )",
+                    ),
                 );
 
                 foreach( $projects as $project )

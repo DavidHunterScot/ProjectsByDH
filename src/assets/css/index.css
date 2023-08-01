@@ -108,7 +108,6 @@ header
 .projects .project .image
 {
     --angle: 0deg;
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 25vw;
