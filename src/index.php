@@ -37,7 +37,7 @@
                     (
                         "title" => "StaticPHP",
                         "description" => "A Static Site Generator that turns PHP files into HTML files.",
-                        "url" => "https://staticphp.bydh.me",
+                        "url" => "https://staticphp.io",
                         "image" => "/assets/images/StaticPHP-Promo1.png",
                         "color" => "#7A86B8",
                     ),
