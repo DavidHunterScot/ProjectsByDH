@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>More by David Hunter</title>
+        <title>Projects by David Hunter</title>
 
         <link rel="stylesheet" type="text/css" href="https://webfonts.staticly.ict.rocks/poppins/poppins.css">
         <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
@@ -14,7 +14,7 @@
     <body>
         <header>
             <div class="container">
-                <p style="letter-spacing: 3px; font-size: 1.2rem;">MORE BY</p>
+                <p style="letter-spacing: 3px; font-size: 1.2rem;">PROJECTS BY</p>
                 <h1 style="font-size: 3rem;">DAVID HUNTER</h1>
             </div>
         </header>
