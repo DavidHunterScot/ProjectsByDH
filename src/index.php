@@ -37,7 +37,7 @@
                     (
                         "title" => "StaticPHP",
                         "description" => "A Static Site Generator that turns PHP files into HTML files.",
-                        "url" => "https://staticphp.ict.rocks",
+                        "url" => "https://www.staticphp.ict.rocks",
                         "image" => "/assets/images/StaticPHP-Promo1.png",
                         "color" => "#7A86B8",
                     ),
