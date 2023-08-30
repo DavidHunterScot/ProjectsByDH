@@ -23,6 +23,8 @@
             <div class="container">
                 <?php
 
+                $images_url = "https://images.storage.ict.rocks";
+
                 $projects = array
                 (
                     array
@@ -30,7 +32,7 @@
                         "title" => "Personal Website",
                         "description" => "It is all about me",
                         "url" => "https://www.davidhunter.ict.rocks",
-                        "image" => "/assets/images/davidhunter_illustration_transparent_1.png",
+                        "image" => $images_url . "/avatars/davidhunter_illustration_transparent_1.png",
                         "color" => "#333",
                     ),
                     array
@@ -38,7 +40,7 @@
                         "title" => "StaticPHP",
                         "description" => "A Static Site Generator that turns PHP files into HTML files.",
                         "url" => "https://www.staticphp.ict.rocks",
-                        "image" => "/assets/images/StaticPHP-Promo1.png",
+                        "image" => $images_url . "/logos/StaticPHP-Promo1.png",
                         "color" => "#7A86B8",
                     ),
                     array
@@ -62,7 +64,7 @@
                         "title" => "DAH5",
                         "description" => "The website that started it all, originally launched back in April 2005!",
                         "url" => "https://www.dah5.com",
-                        "image" => "/assets/images/dah5-logo-2022.svg",
+                        "image" => $images_url . "/logos/dah5-logo-2022.svg",
                         "color" => "rgb( 38, 38, 38 )",
                     ),
                 );
